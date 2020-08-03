@@ -29,5 +29,7 @@ module.exports = {
       //.setFooter("Mundo de Aiko💜• © Todos os direitos reservados.", logo);
     //message.channel.send({ embed });
     message.channel.send(GIF);
+    message.channel.send(GIF);
+    message.channel.send(GIF);
   }
 };
