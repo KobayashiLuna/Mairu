@@ -4,7 +4,7 @@ const { config } = require("dotenv");
 const fs = require("fs");
 const colors = require('colors');
 const ytldl = require("ytdl-core");
-const token = process.env.token;
+const token = process.env.TOKEN;
 
 const client = new Client({
     disableEveryone: true
