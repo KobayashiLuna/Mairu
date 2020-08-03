@@ -4,6 +4,7 @@ const { config } = require("dotenv");
 const fs = require("fs");
 const colors = require('colors');
 const ytldl = require("ytdl-core");
+//const TOKEN = ;
 
 const client = new Client({
     disableEveryone: true
@@ -212,6 +213,7 @@ client.on('raw', async dados => {
 //==============================================================
 //PRO BOT FUNCIONAR
 //==============================================================
-//client.login(process.env.TOKEN);
+client.login(process.env.TOKEN);
 //.login(token);
-client.login(process.env.DISCORD_TOKEN);
+//client.login(process.env.DISCORD_TOKEN);
+//client.login(TOKEN);
