@@ -1,2 +1,0 @@
-# Mairu
-Uma Bot Pessoal
