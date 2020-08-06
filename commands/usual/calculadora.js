@@ -33,7 +33,7 @@ module.exports = {
       .addField("Valores", `\`\`\`js\n${args.join("")}\`\`\``)
       .addField("Resultado", `\`\`\`js\n${resp}\`\`\``)
       .setTimestamp()
-      .setFooter("Mundo de Aiko💜• © Todos os direitos reservados.", logo);
+      .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo)
     message.channel.send(embed);
   }
 };
