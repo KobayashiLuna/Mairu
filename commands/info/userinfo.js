@@ -12,6 +12,7 @@ module.exports = {
     description: "informações do Usuário",
     usage: "[username | id | mention]",
     run: (client, message, args) => {
+        message.delete();
 
         const member = getMember(message, args.join(" "));
 
