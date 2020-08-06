@@ -33,6 +33,8 @@ const member = getMember(message, args.join(" "));
 
         const embed = new RichEmbed()
             .setAuthor('Tabela de Informações', 'https://imgur.com/FuNGHNp.png')
+            .setTitle('**INVITE**')
+            .setURL('https://discord.com/api/oauth2/authorize?client_id=738472593291608124&permissions=8&scope=bot')
 
             //.setColor(member.displayHexColor === '#000000' ? '#ffffff' : member.displayHexColor)
               .setColor("#ab0dcf")
@@ -47,9 +49,8 @@ const member = getMember(message, args.join(" "));
 
             .addField('💬 Invite:', stripIndents
             `**> Meu prefix padrão:** #
-            **> Link:** Invite`, true)
-            .setURL('https://discord.com/api/oauth2/authorize?client_id=738472593291608124&permissions=8&scope=bot')
-            
+            **> Dados adicionais** `, true)
+        
             .setTimestamp() //Horário que o comando foi usado
             .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo)
             //.setFooter(member.displayName, member.user.displayAvatarURL) //notas de rodapé
