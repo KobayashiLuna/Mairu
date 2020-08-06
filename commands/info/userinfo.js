@@ -26,7 +26,7 @@ module.exports = {
 
         // User variables
         //const created = formatDate(member.user.createdAt);
-        var logo = "https://imgur.com/pgQnTtD.png";
+        var logo = 'https://cdn.glitch.com/d0f8adda-4b7c-46a7-818a-e6fea798efb8%2FtSOQl9IZ_400x400.png?v=1596289716635';
         const createdD = dateFormat(member.user.createdAt, "dd/mm/yyyy");
         const createdH = dateFormat(member.user.createdAt, "HH:MM:ss");
 
@@ -49,7 +49,7 @@ module.exports = {
             **> Foi criado no dia:** ${createdD} às ${createdH}`, true)
             
             .setTimestamp() //Horário que o comando foi usado
-            .setFooter('WariansForce! and Dollars • © Todos os direitos reservados.', logo)
+            .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo)
             //.setFooter(member.displayName, member.user.displayAvatarURL) //notas de rodapé
 
         if (member.user.presence.game) 
