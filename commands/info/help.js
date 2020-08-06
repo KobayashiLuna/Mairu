@@ -49,7 +49,7 @@ const member = getMember(message, args.join(" "));
 
             .addField('💬 Invite:', stripIndents
             `**> Meu prefix padrão:** #
-            **> Dados adicionais** `, true)
+            **> Informações adicionais** *O __Help extensivo__ funciona da seguinte forma: helpex + nome do comando*`, true)
         
             .setTimestamp() //Horário que o comando foi usado
             .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo)
