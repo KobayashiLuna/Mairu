@@ -26,7 +26,7 @@ module.exports = {
         // User variables
         //const created = formatDate(member.user.createdAt);
         //const guildCreated = formatDate(message.guild.createdAt);
-        var logo = "https://imgur.com/pgQnTtD.png";
+        var logo = 'https://cdn.glitch.com/d0f8adda-4b7c-46a7-818a-e6fea798efb8%2FtSOQl9IZ_400x400.png?v=1596289716635';
         const CriadoD = dateFormat(message.guild.createdAt, "dd/mm/yyyy");
         const CriadoH = dateFormat(message.guild.createdAt, "HH:MM:ss");
 
@@ -60,7 +60,7 @@ module.exports = {
             // `, true)
 
             .setTimestamp() //Horário que o comando foi usado
-            .setFooter('WariansForce! and Dollars • © Todos os direitos reservados.', logo) //notas de rodapé
+            .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo) //notas de rodapé
 
         message.channel.send(embed);
     }
