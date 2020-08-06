@@ -11,6 +11,7 @@ module.exports = {
     category: "info",
     description: "informações do Servidor Discord",
     run: (client, message, args) => {
+        message.delete();
         const member = getMember(message, args.join(" "));
 
         // Member variables
@@ -42,7 +43,7 @@ module.exports = {
 
             .addField('💻 Informações do servidor:',
             `
-            **> 👑 Dono do servidor:** ${message.guild.owner}
+            **> 👑 Dono(a) do servidor:** ${message.guild.owner}
             **> 📅 Criado em:** ${CriadoD} às ${CriadoH}
             **> 🌎 Região:** ${message.guild.region}
             **> 💻 Total de membros no servidor: (${message.guild.memberCount})** 
