@@ -35,7 +35,7 @@ module.exports = {
       .setImage(user.avatarURL)
       .setColor(color)
       .setTimestamp()
-      .setFooter("Mundo de Aiko💜• © Todos os direitos reservados.", logo);
+      .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo)
     message.channel.send({ embed });
   }
 };
