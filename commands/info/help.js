@@ -4,7 +4,7 @@ const { stripIndents } = require("common-tags");
 const dateFormat = require('dateformat');
 
 const Data = new Date();
-const Invite = https://discord.com/api/oauth2/authorize?client_id=738472593291608124&permissions=8&scope=bot;
+const Invite = 'https://discord.com/api/oauth2/authorize?client_id=738472593291608124&permissions=8&scope=bot';
 
 module.exports = {
   name: "help",
