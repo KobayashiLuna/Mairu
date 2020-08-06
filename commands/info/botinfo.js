@@ -57,7 +57,7 @@ module.exports = {
             //**> 📅 Criado em:** no dia ${dateFormat(Data, "dd/mm/yyyy")} às ${dateFormat(Data, "HH:MM:ss")}
 
             .setTimestamp() //Horário que o comando foi usado
-            .setFooter('Mundo de Aiko💜• © Todos os direitos reservados.', logo) //notas de rodapé
+            .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo) //notas de rodapé
 
         message.channel.send(embed);
     }
