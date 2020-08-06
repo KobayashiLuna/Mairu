@@ -4,7 +4,7 @@ const { stripIndents } = require("common-tags");
 const dateFormat = require('dateformat');
 
 const Data = new Date();
-const Invite = 'https://discord.com/api/oauth2/authorize?client_id=738472593291608124&permissions=8&scope=bot';
+//const Invite = 'https://discord.com/api/oauth2/authorize?client_id=738472593291608124&permissions=8&scope=bot';
 
 module.exports = {
   name: "help",
@@ -47,8 +47,8 @@ const member = getMember(message, args.join(" "));
 
             .addField('💬 Invite:', stripIndents
             `**> Meu prefix padrão:** #
-            **> Link:** ${Invite}`, true)
-            .setURL(Invite)
+            **> Link:** Invite`, true)
+            .setURL('https://discord.com/api/oauth2/authorize?client_id=738472593291608124&permissions=8&scope=bot')
             
             .setTimestamp() //Horário que o comando foi usado
             .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo)
