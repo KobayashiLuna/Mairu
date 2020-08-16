@@ -42,7 +42,7 @@ module.exports = {
             .setThumbnail(client.user.displayAvatarURL)
 
             .addField('💻 Minhas Informações:',
-            \n`
+            `
             **> 💬Meu nome no servidor:** Mairu [Nome Padrão]
             **> 👑 Minha Dona: ** <@!698915459764060170>
             **> ⚙️ Fui criada com ajuda e com os documentos dos Dollars ** Todos os direitos e agradecimentos a eles.\n\n
