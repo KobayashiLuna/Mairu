@@ -1253,7 +1253,7 @@ packages:
       integrity: sha512-7U/ykkZqsvUvvHtIJwnubs3Jjn3s4wTQINs2di3mp3Zp4vlQZm5F9eFo10mxZTANMw0WJEsF05eZLjJduZhTYQ==
   /discord.js-reaction-menu/1.0.2:
     dependencies:
-      discord.js: 12.2.0
+      discord.js: 12.3.1
     dev: false
     resolution:
       integrity: sha512-OlBBGyIXDXj5MmoaxOkDq7FB35B0t+k4Qq1djaC0aiBJYHBhWtmr8wFY+d6dobVZTnY2lEorpbQ1hSBB6RM1wg==
@@ -1301,7 +1301,7 @@ packages:
       sodium: ^2.0.3
     resolution:
       integrity: sha512-cK6rH1PuGjSjpmEQbnpuTxq1Yv8B89SotyKUFcr4RhnsiZnfBfDOev7DD7v5vhtEyyj51NuMWFoRJzgy/m08Uw==
-  /discord.js/12.2.0:
+  /discord.js/12.3.1:
     dependencies:
       '@discordjs/collection': 0.1.6
       '@discordjs/form-data': 3.0.1
@@ -1314,15 +1314,8 @@ packages:
     dev: false
     engines:
       node: '>=12.0.0'
-    peerDependencies:
-      bufferutil: ^4.0.1
-      erlpack: discordapp/erlpack
-      libsodium-wrappers: ^0.7.6
-      sodium: ^3.0.2
-      utf-8-validate: ^5.0.2
-      zlib-sync: ^0.1.6
     resolution:
-      integrity: sha512-Ueb/0SOsxXyqwvwFYFe0msMrGqH1OMqpp2Dpbplnlr4MzcRrFWwsBM9gKNZXPVBHWUKiQkwU8AihXBXIvTTSvg==
+      integrity: sha512-mSFyV/mbvzH12UXdS4zadmeUf8IMQOo/YdunubG1wWt1xjWvtaJz/s9CGsFD2B5pTw1W/LXxxUbrQjIZ/xlUdw==
   /dom-walk/0.1.2:
     dev: false
     resolution:
@@ -1372,7 +1365,7 @@ packages:
     dependencies:
       axios: 0.19.2
       events: 3.2.0
-      lodash: 4.17.19
+      lodash: 4.17.20
       util: 0.12.3
       ws: 7.3.1
     dev: false
@@ -1391,7 +1384,7 @@ packages:
       has: 1.0.3
       has-symbols: 1.0.1
       is-callable: 1.2.0
-      is-regex: 1.1.0
+      is-regex: 1.1.1
       object-inspect: 1.8.0
       object-keys: 1.1.1
       object.assign: 4.1.0
@@ -1958,14 +1951,14 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==
-  /is-regex/1.1.0:
+  /is-regex/1.1.1:
     dependencies:
       has-symbols: 1.0.1
     dev: false
     engines:
       node: '>= 0.4'
     resolution:
-      integrity: sha512-iI97M8KTWID2la5uYXlkbSDQIg4F6o1sYboZKKTDpnDQMLtUL86zxhgDet3Q2SriaYsyGqZ6Mn2SjbRKeLHdqw==
+      integrity: sha512-1+QkEcxiLlB7VEyFtyBg94e08OAsvq7FUBgApTq/w2ymCLyKJgDPsybBENVtA7XCQEgEXxKPonG+mvYRxh/LIg==
   /is-symbol/1.0.3:
     dependencies:
       has-symbols: 1.0.1
@@ -2305,10 +2298,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
-  /lodash/4.17.19:
+  /lodash/4.17.20:
     dev: false
     resolution:
-      integrity: sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+      integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
   /long/3.2.0:
     dev: false
     engines:

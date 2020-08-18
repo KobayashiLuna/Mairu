@@ -43,11 +43,13 @@ module.exports = {
 
             .addField('💻 Minhas Informações:',
             `
-            **> 💬Meu nome no servidor:** Mairu
+            **> 💬Meu nome no servidor:** Mairu [Nome Padrão]
             **> 👑 Minha Dona: ** <@!698915459764060170>
-            **> ⚙️ Fui criada com ajuda e com os documentos de: ** <@!336311215099740160>
-            **> Eu estou em:** ${client.guilds.size} servidores!
-            **> 📅 Fui riada em:** ${CriadoD} às ${CriadoH}
+            **> ⚙️ Fui criada com ajuda e com os documentos dos Dollars ** Todos os direitos e agradecimentos a eles.\n\n
+            **> <:Dollars:744610073162154016> DOLLARS: ** Designer, Idea and Codding: <@!336311215099740160>\nCodding and Revision:\n<@!568923940768972808> & <@!570276100681236480>.
+            **> 📚 Docs: ** | https://discordjs.guide/ | https://discord.js.org/ | **DOLLARS**.\n
+            **> 🔮 Eu estou em:** **${client.guilds.size}** servidores!
+            **> 📅 Fui criada em:** ${CriadoD} às ${CriadoH}
             `, true
             )
             //**> Estar no total de:** [] Servidores
@@ -57,7 +59,7 @@ module.exports = {
             //**> 📅 Criado em:** no dia ${dateFormat(Data, "dd/mm/yyyy")} às ${dateFormat(Data, "HH:MM:ss")}
 
             .setTimestamp() //Horário que o comando foi usado
-            .setFooter('Mundo de Aiko💜• © Todos os direitos reservados.', logo) //notas de rodapé
+            .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo) //notas de rodapé
 
         message.channel.send(embed);
     }
