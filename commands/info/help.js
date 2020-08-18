@@ -44,12 +44,15 @@ const member = getMember(message, args.join(" "));
             .addField('⚙️ Comandos:', stripIndents
             `**> Info:** help, ping, helpex, botinfo, guildinfo, userinfo
             **> Moderação:** prune
-            **> Usual:** avatar, calculadora, limpeza
-            **> Fun:** say`, true)
+            **> Usual:** avatar, calculadora, limpeza (coloca 3 gifs pra limpar o chat)
+            **> Reaction:** EM BREVE
+            **> Fun:** say, gifs`, true)
 
             .addField('💬 Invite:', stripIndents
             `**> Meu prefix padrão:** #
-            **> Informações adicionais** *O __Help extensivo__ funciona da seguinte forma: helpex + nome do comando*`, true)
+            **> Informações adicionais** *O __Help extensivo__ funciona da seguinte forma:\nhelpex + nome do comando*\n
+            **> Sistema de Reaction** *O comando __gif__ funciona da seguinte forma: gifs + help\n(para mostrar a tabelinha)\nou gif + nome da reação*
+            `, true)
         
             .setTimestamp() //Horário que o comando foi usado
             .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo)
