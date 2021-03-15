@@ -61,7 +61,7 @@ module.exports = {
             // `, true)
 
             .setTimestamp() //Horário que o comando foi usado
-            .setFooter('Mundo de Aiko💜 & Dollars • © Todos os direitos reservados.', logo) //notas de rodapé
+            .setFooter(`${message.guild.name} & Dollars • © Todos os direitos reservados.`, logo) //notas de rodapé
 
         message.channel.send(embed);
     }
